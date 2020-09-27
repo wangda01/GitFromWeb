@@ -1,0 +1,26 @@
+#image_path=E:\\ABC/
+#spring.mvc.static-path-pattern=/pic/**
+#spring.resources.static-locations=file:${image_path},classpath:/public/,classpath:/static/
+
+#系统自带的配置项
+#server:
+#  port: 8888
+#  servlet:
+#    context-path: /demo
+#
+#除了系统带的配置,还可以自定义配置(注意空格的位置)
+hncj:
+  ip: 192.168.188.1
+  port: 9999
+
+user:
+  username: 小王
+  password: 123
+  birthday: 2020.12.12
+  address: 成都
+
+#spring:
+#  profiles:
+#    active: test
+
+
